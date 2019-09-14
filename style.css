@@ -12,3 +12,11 @@ body {
   overflow: hidden;
     padding-top: 100px;
 }
+
+/* bg */
+
+.bg-profile {
+    padding-top: 48px;
+	background-image: linear-gradient(to right bottom, #dcdeca, #dfd1c6, #d5c7c7, #c6c0c3, #b9b9b9);
+    padding-bottom: 48px;
+  }
