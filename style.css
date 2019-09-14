@@ -1,0 +1,14 @@
+body {
+    color: #434343;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+    max-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+    padding-top: 100px;
+}
