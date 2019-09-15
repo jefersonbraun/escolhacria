@@ -2,16 +2,56 @@ body {
     color: #434343;
 }
 
-.masthead {
-  height: 100vh;
-  min-height: 500px;
-    max-height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-    padding-top: 100px;
+.py-5 {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
+
+@media (max-width: 976px) {
+    .py-5 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(14,21,47,0.6);
+}
+
+.masthead p {
+    text-shadow: 0px 12px 10px rgba(14,21,47,0.4);
+}
+.masthead h2 {
+    text-shadow: 0px 10px 10px rgba(14,21,47,0.13);
+}
+.masthead h4 {
+    text-shadow: 0px 10px 10px rgba(14,21,47,0.1);
+}
+
+.first-call {
+    font-weight: lighter;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.masthead {
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 976px) {
+    .masthead p {
+        font-size: 12px;
+    }
+    .masthead h2 {
+        font-size: 24px;
+    }
+    .masthead h4 {
+        font-size: 16px;
+    }
+}
+
 
 /* bg */
 
